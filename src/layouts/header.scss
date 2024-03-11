@@ -1,0 +1,46 @@
+* {
+    font-family: playfair !important;
+   
+}
+
+
+.hamburger {
+    cursor: pointer !important;
+}
+
+.hamburger input {
+    display: none !important;
+}
+
+.hamburger svg {
+    height: 2em !important;
+    transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.line {
+    fill: none !important;
+    stroke: var(--pink) !important;
+    stroke-linecap: round !important;
+    stroke-linejoin: round !important;
+    stroke-width: 4 !important;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.line-top-bottom {
+    stroke-dasharray: 12 63 !important;
+}
+
+.hamburger input:checked+svg {
+    transform: rotate(-45deg) !important;
+}
+
+.hamburger input:checked+svg .line-top-bottom {
+    stroke-dasharray: 20 300 !important;
+    stroke-dashoffset: -32.42 !important;
+}
+
+.hello {
+    transition: top 1s ease-out !important;
+}
+
