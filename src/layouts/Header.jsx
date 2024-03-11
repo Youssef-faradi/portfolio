@@ -19,7 +19,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="h-[10vh] w-full fixed flex items-center justify-between max-[430px]:gap-5 px-[8vw] text-white bg-[#080a05] ">
+            <div className="h-[10vh] w-full fixed flex items-center justify-between max-[430px]:gap-5 px-[8vw] text-white bg-[#080a05] z-50">
                 <div className=" flex lg:w-[30%] w-[30%] bf-[#080a05]">
                     
                     <button className=" flex items-center ">

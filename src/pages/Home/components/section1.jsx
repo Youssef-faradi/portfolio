@@ -99,7 +99,7 @@ export const FirstSectionHome = () => {
                     <div className="lg:pt-[12vh] bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 text-transparent bg-clip-text">
                         <h1 className='font-bold text-5xl border-b-4 border-[--pink]  rounded'>Projects</h1>
                     </div>
-                    <div className='flex gap-5 flex-col lg:flex-row z-n1'>
+                    <div className='flex gap-5 flex-col lg:flex-row '>
                         <div >
                             <div className="bg-gradient-to-tr from-indigo-500 from-0% via-violet-500 via-30%   to-[--pink] rounded-2xl shadow-sm shadow-[--purple] outline outline-slate-400 -outline-offset-8">
                                 <div className="group overflow-hidden  relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:w-24 after:bg-[--purple] after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:h-12  before:absolute   before:bg-[purple] before:rounded-full  before:blur-xl before:top-20 before:right-16 before:w-12 before:h-12  hover:rotate-12 flex justify-center items-center h-56 w-80  bg-neutral-900 rounded-2xl outline outline-[--pink] -outline-offset-8">
