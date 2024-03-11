@@ -137,14 +137,14 @@ export const FirstSectionHome = () => {
                         <h1 className='font-bold text-5xl border-b-4 border-[--pink] rounded'>Contact</h1>
                     </div>
                     <div className='flex gap-5 lg:flex-row flex-col w-full'>
-                        <form action="" className='flex flex-col gap-5  lg:w-[50%]'>
+                        <form action="" className='flex flex-col gap-5  lg:w-[50%] backdrop-blur-sm rounded-2xl'>
                             <div className="flex items-center justify-center">
                                 <div className="relative w-[100%]">
                                     <input
                                         id="username"
                                         name="username"
                                         type="text"
-                                        className="w-[100%] lg:w-[80%] border-b-2 border-gray-300 py-1 focus:border-b-2 focus:border-[--pink] transition-colors focus:outline-none peer bg-inherit"
+                                        className="w-[100%] border-b-2 border-gray-300 py-1 focus:border-b-2 focus:border-[--pink] transition-colors focus:outline-none peer bg-inherit"
                                     />
                                     <label
                                         htmlFor="username"
@@ -158,7 +158,7 @@ export const FirstSectionHome = () => {
                                         id="email"
                                         name="email"
                                         type="email"
-                                        className=" w-[100%] lg:w-[80%] border-b-2 border-gray-300 py-1 focus:border-b-2 focus:border-[--pink] transition-colors focus:outline-none peer bg-inherit"
+                                        className=" w-[100%] border-b-2 border-gray-300 py-1 focus:border-b-2 focus:border-[--pink] transition-colors focus:outline-none peer bg-inherit"
                                     />
                                     <label
                                         htmlFor="email"
@@ -168,7 +168,7 @@ export const FirstSectionHome = () => {
                             </div>
                             <div className="flex items-center justify-center ">
                                 <div className='relative w-[100%]'>
-                                    <textarea name="message" id="message" cols="23" rows="5" className='w-[100%] lg:w-[80%] border-b-2 border-gray-300 py-1 focus:border-b-2 focus:border-[--pink] transition-colors focus:outline-none peer bg-inherit border-o outline-none'>
+                                    <textarea name="message" id="message" cols="23" rows="5" className='w-[100%]  border-b-2 border-gray-300 py-1 focus:border-b-2 focus:border-[--pink] transition-colors focus:outline-none peer bg-inherit border-o outline-none'>
 
                                     </textarea>
                                     <label htmlFor="message" className="absolute left-0 top-1 cursor-text peer-focus:text-md peer-focus:font-bold peer-focus:-top-4 transition-all peer-focus:text-[--purple]"
@@ -176,12 +176,12 @@ export const FirstSectionHome = () => {
                                 </div>
                             </div>
                         </form>
-                        <div className='w-[100%] lg:w-[50vw] flex flex-col gap-4 justify-center items-center'>
+                        <div className='w-[100%] lg:w-[50vw] flex flex-col gap-4 justify-center items-center '>
                             <h1 className='text-5xl bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text '>Code makes life Easier</h1>
                             <div className='flex flex-col gap-4 w-[100%] lg:w-[65%]'>
-                                <h4 className='text-[--pink]'><span className='bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text font-bold'>Phone</span>  : 07 62 15 25 21</h4>
-                                <h4 className='text-[--pink]'><span className='bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text'>Email</span>    : faradiyoussef1@gmail.com</h4>
-                                <h4 className='text-[--pink]'><span className='bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text'>Location</span> : Casablanca</h4>
+                                <h4 className=''><span className='bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text font-bold'>Phone</span>  : 07 62 15 25 21</h4>
+                                <h4 className=''><span className='bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text'>Email</span>    : faradiyoussef1@gmail.com</h4>
+                                <h4 className=''><span className='bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text'>Location</span> : Casablanca</h4>
                             </div>
                         </div>
                     </div>

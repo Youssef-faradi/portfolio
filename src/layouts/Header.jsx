@@ -8,6 +8,7 @@ import { FaGithubSquare,FaLinkedin,FaDiscord ,FaInstagramSquare  } from "react-i
 import { CgWebsite } from "react-icons/cg";
 import code from "../assets/images/code.png"
 import logo from "../assets/images/logo.png"
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -29,34 +30,34 @@ const Header = () => {
                 </div>
                 <div className={`hello max-[430px]:${isMenuOpen ? "" : "hidden"} lg:static fixed ${isMenuOpen ? "top-[10%]" : "top-[-100%]"} h-[91vh] left-0 lg:h-[100%] flex-col lg:flex-row items-center justify-center lg:justify-start  bg-[#080a05] flex w-full lg:w-[60%] gap-[8%] z-auto`}>
                     <h5 className="pt-2 ">
-                        <a href="#home" className="flex gap-2 text-white no-underline  "> <GoHomeFill />Home</a>
+                        <Link to="#home" className="flex gap-2 text-white no-underline  "> <GoHomeFill />Home</Link>
                     </h5>
                     <h5 className="pt-2 ">
-                        <a href="#about" className="flex gap-2 text-white no-underline "><BsFillPersonLinesFill />About</a>
+                        <Link to="#about" className="flex gap-2 text-white no-underline "><BsFillPersonLinesFill />About</Link>
                     </h5>
                     <h5 className="pt-2 ">
-                        <a href="#skills" className="flex gap-2 text-white no-underline "><BsPersonFillGear />Skills</a>
+                        <Link to="#skills" className="flex gap-2 text-white no-underline "><BsPersonFillGear />Skills</Link>
                     </h5>
                     <h5 className="pt-2 ">
-                        <a href="#projects" className="flex gap-2 text-white no-underline "><CgWebsite />Projects</a>
+                        <Link to="#projects" className="flex gap-2 text-white no-underline "><CgWebsite />Projects</Link>
                     </h5>
                     <h5 className="pt-2 ">
                         <button className="flex gap-2 text-white no-underline "><MdAttachEmail />Contact</button>
                     </h5>
                 </div>
                 <div className="flex h-[100%] lg:w-[25%] gap-3 text-3xl items-center lg:justify-center bg-[#080a05] text-white">
-                    <a href="https://github.com/Youssef-faradi" rel="noreferrer" target="_blank" className=" text-white " >
+                    <Link to="https://github.com/Youssef-faradi" rel="noreferrer" target="_blank" className=" text-white " >
                         <FaGithubSquare className="hover:scale-125 transition-all text-2xl  hover:text-zinc-800" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/youssef-faradi/" rel="noreferrer" target="_blank" className=" text-white">
+                    </Link>
+                    <Link to="https://www.linkedin.com/in/youssef-faradi/" rel="noreferrer" target="_blank" className=" text-white">
                         <FaLinkedin  className=" hover:scale-125 transition-all text-2xl  hover:text-sky-500"/>
-                    </a>
-                    <a href="https://www.discord.com/YF-01/" rel="noreferrer" target="_blank" className=" text-white ">
+                    </Link>
+                    <Link to="https://www.discord.com/YF-01/" rel="noreferrer" target="_blank" className=" text-white ">
                         <FaDiscord  className=" hover:scale-125 transition-all text-2xl  hover:text-indigo-500"/>
-                    </a>
-                    <a href="https://www.instagram.com/yf.001/"  rel="noreferrer" target="_blank" className=" text-white">
+                    </Link>
+                    <Link to="https://www.instagram.com/yf.001/"  rel="noreferrer" target="_blank" className=" text-white">
                         <FaInstagramSquare className="hover:scale-125 transition-all text-2xl  hover:text-rose-500"/>
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex gap-3 items-center ps-4 justify-end ">
                     <label
