@@ -30,19 +30,19 @@ const Header = () => {
                 </div>
                 <div className={`hello max-[430px]:${isMenuOpen ? "" : "hidden"} lg:static fixed ${isMenuOpen ? "top-[10%]" : "top-[-100%]"} h-[91vh] left-0 lg:h-[100%] flex-col lg:flex-row items-center justify-center lg:justify-start  bg-[#080a05] flex w-full lg:w-[60%] gap-[8%] z-auto`}>
                     <h5 className="pt-2 ">
-                        <Link to="#home" className="flex gap-2 text-white no-underline  "> <GoHomeFill />Home</Link>
+                        <a  className="flex gap-2 text-white no-underline  " > <GoHomeFill /> Home</a>
                     </h5>
                     <h5 className="pt-2 ">
-                        <Link to="#about" className="flex gap-2 text-white no-underline "><BsFillPersonLinesFill />About</Link>
+                        <a  className="flex gap-2 text-white no-underline "  onClick={()=>{window.scrollTo({top:600, behaviour: "smooth"})}}><BsFillPersonLinesFill />About</a>
                     </h5>
                     <h5 className="pt-2 ">
-                        <Link to="#skills" className="flex gap-2 text-white no-underline "><BsPersonFillGear />Skills</Link>
+                        <a  className="flex gap-2 text-white no-underline " onClick={()=>{window.scrollTo({top:1200, behaviour: "smooth"})}}><BsPersonFillGear />Skills</a>
                     </h5>
                     <h5 className="pt-2 ">
-                        <Link to="#projects" className="flex gap-2 text-white no-underline "><CgWebsite />Projects</Link>
+                        <a  className="flex gap-2 text-white no-underline " onClick={()=>{window.scrollTo({top:2100, behaviour: "smooth"})}}><CgWebsite />Projects</a>
                     </h5>
                     <h5 className="pt-2 ">
-                        <button className="flex gap-2 text-white no-underline "><MdAttachEmail />Contact</button>
+                        <button className="flex gap-2 text-white no-underline " onClick={()=>{window.scrollTo({top:2500, behaviour: "smooth"})}}><MdAttachEmail />Contact</button>
                     </h5>
                 </div>
                 <div className="flex h-[100%] lg:w-[25%] gap-3 text-3xl items-center lg:justify-center bg-[#080a05] text-white">

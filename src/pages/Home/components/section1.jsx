@@ -118,7 +118,7 @@ export const FirstSectionHome = () => {
                                     </div>
                                 </div>
                             </div>
-                            <h4 className='pt-4 text-center bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text'>Trading Dashboard "Zaymas"</h4>
+                            <h4 className='pt-4 text-center bg-gradient-to-r from-indigo-500 from-0% via-violet-500 via-30%   to-rose-600 font-bold text-transparent bg-clip-text'>Trading Dashboard "Coin"</h4>
                         </div>
                         <div>
                             <div className="bg-gradient-to-tr from-indigo-500 from-0% via-violet-500 via-30%   to-[--pink] rounded-2xl shadow-sm shadow-[--purple] outline outline-slate-400 -outline-offset-8">
